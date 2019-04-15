@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Dropdown_Menu_inside_a_Navigation_Bar.css">
+
+
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Data</a>
+  <a href="#news">About</a>
+  <a href="#news">Contact</a>
+  <div class="dropdown">
+        <button class="dropbtn">Comparisons 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Visualization-page-1.html">Visualization 1</a>
+      <a href="Visualization-page-2.html">Visualization 2</a>
+      <a href="Visualization-page-3.html">Visualization 3</a>
+      <a href="Visualization-page-4.html">Visualization 4</a>
+    </div>
+  </div> 
+</div>
+<hr>
+<p></p>
+
+<div class="container">
+    <h2>Image</h2>
+    <p>The .img-responsive class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>                  
+    <img src="./images/comparison-lg.png" class="img-responsive" alt="Cinque Terre" width="604" height="436"> 
+    <img src="./images/comparison-sm.png" class="img-responsive" alt="Cinque Terre" width="304" height="236"> 
+  </div>
+</body>
+</html>
